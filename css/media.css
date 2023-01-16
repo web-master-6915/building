@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+    html{
+    scroll-behavior: smooth;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    button{
+        cursor: pointer;
+    }
+    .list{
+        display: block;
+        margin-right: 680px;
+        
+    }
+    li{
+        margin: 15px;
+        color: aqua;
+    }
+    .list ul li a{
+        color: aqua;
+    }
+    .hero{
+        padding-top: 318px;
+        padding-bottom: 140px;
+        background-image:
+            linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+            url('../images/home.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px 300px;
+        color: #fff;
+    }
+    
+  }
